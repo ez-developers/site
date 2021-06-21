@@ -71,3 +71,15 @@ p {
 a {
 	text-decoration: none;
 }
+
+.logo-clouds {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: auto;
+
+	position: relative;
+	width: 1440px;
+	height: 308px;
+	background: white;
+}

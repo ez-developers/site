@@ -13,4 +13,20 @@
 *::after,
 *::before {
 	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+	
 }
+
+
+
+.hero {
+	/* Hero / 2 */
+	position: relative;
+	width: 100%;
+	height: 100vh;
+
+	/* Default / White */
+
+	background: #FFFFFF;
+}
+

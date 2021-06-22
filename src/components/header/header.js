@@ -5,7 +5,6 @@ import { Link } from 'react-scroll';
 import Logo from 'components/logo';
 import LogoDark from 'assets/logo.svg';
 import MobileDrawer from './mobile-drawer';
-import Drawer from 'components/drawer';
 import menuItems from './header.data';
 
 export default function Header({ className }) {
@@ -34,11 +33,7 @@ export default function Header({ className }) {
             <Button className="donate__btn" variant="secondary" aria-label="Get Started">
               Get Started
             </Button>
-                  <MobileDrawer>
-                    <Drawer>
-
-                    </Drawer>
-                  </MobileDrawer>
+                  <MobileDrawer />
         </Container>
       </header>
   );

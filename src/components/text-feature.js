@@ -22,7 +22,7 @@ export default function TextFeature({
         <Text as="p" className="description" sx={styles.description}>
           {description}
         </Text>
-      )} /* if description is true it will do the function below the description */
+      )} 
         {btnName &&  (
           <Link href={btnURL} variant="default">
             <Button variant="primary" aria-label="{btnName}">

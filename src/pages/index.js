@@ -15,20 +15,20 @@ import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
 
 export default function IndexPage() {
-  return (
-    <ThemeProvider theme={theme}>
-        <Layout>
-          <SEO title="NextJS Landing Page" />
-          <Banner />
-          <KeyFeature />
-          <ServiceSection />
-          <Feature />
-          <CoreFeature />
-          <WorkFlow />
-          <Package />
-          <TeamSection />
-          <TestimonialCard />
-        </Layout>
-    </ThemeProvider>
-  );
+	return (
+		<ThemeProvider theme={theme}>
+			<Layout>
+				<SEO title='NextJS Landing Page' />
+				<Banner />
+				<KeyFeature />
+				<ServiceSection />
+				<Feature />
+				<CoreFeature />
+				<WorkFlow />
+				<Package />
+				<TeamSection />
+				<TestimonialCard />
+			</Layout>
+		</ThemeProvider>
+	);
 }

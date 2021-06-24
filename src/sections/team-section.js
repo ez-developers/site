@@ -181,6 +181,8 @@ export default function TeamSection() {
   return (
     <section>
       <Container>
+      <br />
+      <br />
         <SectionHeader
           slogan="Our team"
           title="The most qualified and talented individuals" 

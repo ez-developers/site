@@ -12,6 +12,21 @@ export default function Footer() {
           <Link path="/">
             <Image src={FooterLogo} alt="Logo" />
           </Link>
+          <Box sx={styles.footer.menus}>
+            <nav>
+              {data.menuItem.map((item, i) => (
+                <Link 
+                  path={item.path}
+                  key={i}
+                  label={item.label}
+                  sx={styles.footer.link}
+                />
+              ))}
+            </nav>
+          </Box>
+          <Text sx={styles.footer.copyright}>
+            Copyright by {new Date().getFullYear()} EZ
+          </Text>
         </Box>
       </Container>
     </footer>

@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
-import BannerImg from 'assets/banner-thumb.png';
+import BannerImg from 'assets/banner-thumb2.webp';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 
@@ -13,14 +13,12 @@ export default function Banner() {
 					<Heading as='h6' variant='heroPrimary'>
 						Команда разработчиков
 						<br />
-						"EZ developers"
+						"EZ Developers"
 					</Heading>
 					<Text as='p' variant='heroSecondary'>
-						Check out our website to find great software products
-						and deals! If you need a website or a web application
-						this is a great place to go!
+					Компания “EZ Developers” - это команда креативных профессионалов, которые готовы предоставить индивидуальные программные решения для вашего бизнеса.
 					</Text>
-					<Button variant='primary'>Explore</Button>
+					<Button variant='primary'>Заказать</Button>
 				</Box>
 				<Box sx={styles.banner.imageBox}>
 					<Image src={BannerImg} alt='bannner' />

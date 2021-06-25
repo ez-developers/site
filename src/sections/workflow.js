@@ -10,27 +10,28 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Cвязь',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Отправьте нам свой запрос на проект или идею проекта.',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Анализ',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Мы свяжемся с вами, чтобы уточнить ваши требования к проекту.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Предложение',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Мы предоставим вам нашу бесплатную, не имеющую обязательной силы заявку.',
   },
+ 
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Старт',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Вы познакомитесь с командой, и мы начнем.',
   },
 ];
 
@@ -39,8 +40,9 @@ export default function WorkFlow() {
      <section sx={styles.workflow}>
        <Container>
          <SectionHeader
-         slogan="What's the function"
-         title="Meet the feature of our product" 
+         slogan="Процесс создания
+         проекта"
+         title="Как мы работаем!" 
          isWhite={true}
          />
          <Grid sx={styles.grid}>
@@ -65,7 +67,7 @@ export default function WorkFlow() {
 
 const styles = {
   workflow: {
-    backgroundColor: 'primary',
+    backgroundColor: 'secondary',
     backgroundImage: `url(${PatternBG})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',

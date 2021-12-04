@@ -11,14 +11,15 @@ export default function Banner() {
 			<Container sx={styles.banner.container}>
 				<Box sx={styles.banner.contentBox}>
 					<Heading as='h6' variant='heroPrimary'>
-						Команда разработчиков
-						<br />
-						"EZ Developers"
+						Innovation for the generation. <br />
 					</Heading>
 					<Text as='p' variant='heroSecondary'>
-					Компания “EZ Developers” - это команда креативных профессионалов, которые готовы предоставить индивидуальные программные решения для вашего бизнеса.
+						EZ-Developers are here to help you succeed in developing
+						smart business solutions by providing the most effective
+						and advantageous way to build and ship you products{' '}
+						<i>EZily</i>.
 					</Text>
-					<Button variant='primary'>Заказать</Button>
+					<Button variant='primary'>Let's dive in!</Button>
 				</Box>
 				<Box sx={styles.banner.imageBox}>
 					<Image src={BannerImg} alt='bannner' />

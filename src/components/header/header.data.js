@@ -1,18 +1,18 @@
 export default [
-  {
-    path: 'home',
-    label: 'Главная',
-  },
-  {
-    path: 'feature',
-    label: 'Наши Услуги',
-  },
-  {
-    path: 'team',
-    label: 'Команды',
-  },
-  {
-    path: 'testimonial',
-    label: 'Портфолио',
-  },
+	{
+		path: 'home',
+		label: 'Home',
+	},
+	{
+		path: 'feature',
+		label: 'Features',
+	},
+	{
+		path: 'team',
+		label: 'Our Team',
+	},
+	{
+		path: 'testimonial',
+		label: 'Portfolio',
+	},
 ];

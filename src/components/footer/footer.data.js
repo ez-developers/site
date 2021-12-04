@@ -1,24 +1,24 @@
 export default {
-  menuItem: [
-    {
-      path: '/',
-      label: 'Главная',
-    },
-    {
-      path: '/',
-      label: 'Наши Услуги',
-    },
-    {
-      path: '/',
-      label: 'Команды',
-    },
-    {
-      path: '/',
-      label: 'Портфолио',
-    },
-    {
-      path: '/',
-      label: 'Контакты',
-    },
-  ],
+	menuItem: [
+		{
+			path: '/',
+			label: 'Home',
+		},
+		{
+			path: '/',
+			label: 'Features',
+		},
+		{
+			path: '/',
+			label: 'Our Team',
+		},
+		{
+			path: '/',
+			label: 'Portfolio',
+		},
+		{
+			path: '/',
+			label: 'Contact',
+		},
+	],
 };
